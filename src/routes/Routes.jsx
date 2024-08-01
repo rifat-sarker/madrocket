@@ -6,6 +6,7 @@ import Academics from "../components/Academics/Academics";
 import Faculty from "../components/Faculty/Faculty";
 import Students from "../components/Students/Students";
 import Gallery from "../components/Gallery/Gallery";
+import Contact from "../components/Contact/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
       {
         path : "gallery",
         element: <Gallery/>
+      },
+      {
+        path : "contact",
+        element: <Contact/>
       },
     ],
   },

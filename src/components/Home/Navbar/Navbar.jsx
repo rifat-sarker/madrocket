@@ -66,49 +66,55 @@ export default function StickyNavbar() {
           Admissions
         </a>
       </Typography>
-     <Link to={"/faculty"}> <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Faculty
-        </a>
-      </Typography></Link>
-     <Link to={"/students"}>
-     <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Students
-        </a>
-      </Typography></Link>
-     <Link to={"/gallery"}>
-     <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Gallery
-        </a>
-      </Typography>
-     </Link>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Contact Us
-        </a>
-      </Typography>
+      <Link to={"/faculty"}>
+        {" "}
+        <Typography
+          as="li"
+          variant="small"
+          color="blue-gray"
+          className="p-1 font-normal"
+        >
+          <a href="#" className="flex items-center">
+            Faculty
+          </a>
+        </Typography>
+      </Link>
+      <Link to={"/students"}>
+        <Typography
+          as="li"
+          variant="small"
+          color="blue-gray"
+          className="p-1 font-normal"
+        >
+          <a href="#" className="flex items-center">
+            Students
+          </a>
+        </Typography>
+      </Link>
+      <Link to={"/gallery"}>
+        <Typography
+          as="li"
+          variant="small"
+          color="blue-gray"
+          className="p-1 font-normal"
+        >
+          <a href="#" className="flex items-center">
+            Gallery
+          </a>
+        </Typography>
+      </Link>
+      <Link to={"/contact"}>
+        <Typography
+          as="li"
+          variant="small"
+          color="blue-gray"
+          className="p-1 font-normal"
+        >
+          <a href="#" className="flex items-center">
+            Contact Us
+          </a>
+        </Typography>
+      </Link>
     </ul>
   );
 
