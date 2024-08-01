@@ -9,6 +9,7 @@ import Gallery from "../components/Gallery/Gallery";
 import Contact from "../components/Contact/Contact";
 import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
+import Admissions from "../components/Admission/Admission";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path : "academics",
         element: <Academics/>
+      },
+      {
+        path : "admission",
+        element: <Admissions/>
       },
       {
         path : "faculty",

@@ -56,7 +56,7 @@ export default function StickyNavbar() {
           </a>
         </Typography>
       </Link>
-      <Typography
+      <Link to={"/admission"}><Typography
         as="li"
         variant="small"
         color="blue-gray"
@@ -65,7 +65,7 @@ export default function StickyNavbar() {
         <a href="#" className="flex items-center">
           Admissions
         </a>
-      </Typography>
+      </Typography></Link>
       <Link to={"/faculty"}>
         {" "}
         <Typography
