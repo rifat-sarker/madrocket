@@ -127,7 +127,7 @@ export default function StickyNavbar() {
             <Typography
               as="a"
               href="#"
-              className="mr-4 cursor-pointer py-1.5 font-bold"
+              className="mr-4 cursor-pointer py-1.5 font-bold hidden sm:block md:block"
             >
               Springdale Public School
             </Typography>
@@ -135,9 +135,10 @@ export default function StickyNavbar() {
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
+              <Link to={"/login"}>
               <button className="text-white px-6 py-2 sm:px-4 rounded-md focus:bg-gradient-to-r focus:from-[#0035F5] focus:to-[#A600F5] hover:bg-gradient-to-r hover:from-[#5C7FFF] hover:to-[#CB5CFF]  bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] ">
                 Login
-              </button>
+              </button></Link>
             </div>
             <IconButton
               variant="text"

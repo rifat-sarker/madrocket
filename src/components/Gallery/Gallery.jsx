@@ -72,13 +72,13 @@ const Gallery = () => {
       <div className="mt-12 flex flex-col place-items-center">
         <h3 className="font-bold py-3 text-xl">Videos</h3>
         <hr className="w-full size-6" />
-        <div className="lg:flex items-center justify-center gap-8 p-4">
+        <div className="lg:flex items-center justify-items-center justify-center gap-8 p-4">
           <div>
-            <h3 className="font-bold py-3">
+            <h3 className="font-bold py-3 p-4">
               Virtual tour of Springdale Public School
             </h3>
             <iframe
-              className="lg:w-[560px] lg:h-[315px] md:w-[400px] md:h-[200px] "
+              className="lg:w-[560px] lg:h-[315px] md:w-[400px] md:h-[200px] p-4 "
               src="https://www.youtube.com/embed/ktlfwnEvJQE?si=RGCO4zlTxhCjS10E"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -86,11 +86,11 @@ const Gallery = () => {
             ></iframe>
           </div>
           <div>
-            <h3 className="font-bold py-3">
+            <h3 className="font-bold py-3 p-4">
               Highlights from the Annual Function 2023
             </h3>
             <iframe
-              className="lg:w-[560px] lg:h-[315px] md:w-[400px] md:h-[200px]"
+              className="lg:w-[560px] lg:h-[315px] md:w-[400px] md:h-[200px] p-4"
               src="https://www.youtube.com/embed/2rzm_yoxA3s?si=5V2W2wk-ObXTxkCz"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

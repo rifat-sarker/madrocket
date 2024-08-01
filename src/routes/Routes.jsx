@@ -7,6 +7,8 @@ import Faculty from "../components/Faculty/Faculty";
 import Students from "../components/Students/Students";
 import Gallery from "../components/Gallery/Gallery";
 import Contact from "../components/Contact/Contact";
+import Login from "../components/Login/Login";
+import Register from "../components/Register/Register";
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +42,14 @@ export const router = createBrowserRouter([
       {
         path : "contact",
         element: <Contact/>
+      },
+      {
+        path : "login",
+        element: <Login/>
+      },
+      {
+        path : "register",
+        element: <Register/>
       },
     ],
   },
